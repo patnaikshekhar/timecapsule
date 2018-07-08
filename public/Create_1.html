@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+<link rel="stylesheet" type="text/css" href="Create.css">
+
+</head>
+
+<body>
+	
+<div class="Homebar">
+	<nav class="navbar navbar-default">
+  		<div class="container-fluid">
+  			  <div class="navbar-header">
+				  
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+       			 	<span class="icon-bar"></span>
+        		 	<span class="icon-bar"></span>
+        			<span class="icon-bar"></span> 
+      			</button>
+		
+  			    <a class="navbar-brand" href="#"><img  style="height: 20px; width: 60px;"src="Images/Logo.jpg"></img></a>
+				<a class="navbar-brand" href="#">Time Capsule</a>
+
+  			  </div>
+			
+		      <div class="collapse navbar-collapse" id="myNavbar">				 
+  			  <ul class="nav navbar-nav navbar-right"> 	    
+				    <li class="active"><a href="Create_1.html"><span class="glyphicon glyphicon-time"></span> Create</a></li>
+  			   	     <li><a href="Home_SentOLD.html"><span class="glyphicon glyphicon-home" ></span> Home</a></li>
+				     <li><a href="Main_Home.html"><span class="glyphicon glyphicon-user"></span> Sign out</a></li>
+  			  </ul>
+		     </div>
+       </div>
+	</nav>
+</div>
+	
+
+
+	
+
+	
+<div class="container boxshadow "  >
+	<!-- <div  >
+		
+		<div style="text-align:center">
+ 		 <span class="dot" onclick="currentSlide(1)"></span> 
+ 		 <span class="dot" onclick="currentSlide(2)"></span> 
+ 	     <span class="dot" onclick="currentSlide(3)"></span> 
+		 <span class="dot" onclick="currentSlide(3)"></span> 
+
+		</div>
+	
+	</div>
+
+	The dots/circles -->
+	
+	<div class="progress">
+    	<div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+     	 40%
+    	</div>
+	</div>
+    
+	<div class="center" >
+		<div class="row" >
+   	     <a href="#"><span class="glyphicon glyphicon-picture " style="font-size: 210px;color: #F1EDED;margin-top: 40px"></span>  </a><br>	
+		</div>
+		
+		<div>
+			<br><h4>Add a picture</h4>
+			<h5>Upload a picture from your gallery</h5>
+		</div> 
+		
+		<div id="upload"class="row" onClick="button()">
+			<button class="btn btn-info button" style="background-color : #0E1D37; margin-top: 35px" > Upload </button>
+		</div>
+	
+	
+		<div id="buttons" class="row" style="display: none">
+			  <a href="Create_1.html"><button class="btn btn-info button col-md-6" style="margin-top: 50px; margin-bottom:20px">Cancel </button></a>
+   			 <a href="Create_2.html"><button class="btn btn-info button col-md-6" style="margin-top: 50px; margin-bottom: 20px"  > Save </button></a>
+		</div>
+		
+		
+	</div>
+	
+</div>
+
+	
+	
+<script>
+function button(){
+	document.getElementById("upload").style.display="none"
+	document.getElementById("buttons").style.display="block"
+}
+	
+</script>
+	
+</body>
+</html>

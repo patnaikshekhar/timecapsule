@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+
+	.fakeimg {
+    	background-color: #aaa;
+    	padding: 20px;
+		margin-top: 40px;
+		margin-bottom:20px;
+		height:450px; 
+	}
+	
+	.img {
+   		display: block;
+    	margin-left: auto;
+   		margin-right: auto;
+		
+}
+	.text {
+   		display: block;
+    	margin-left: auto;
+   		margin-right: auto;
+}
+	
+	
+   .profilepic{
+		height: 50px;
+  		width: 50px;
+  		background-color: #555;
+  		border-radius: 50%;
+	    float:left;
+	    margin-right: 10px;
+			
+	}
+	
+	.container {
+		width: 100%; 
+ }
+	
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+	 .fakeimg{
+		width:450px;
+	}
+	
+	.text{	
+		width: 450px;		
+	}
+}
+
+
+/* For tablets: */
+@media only screen and (min-width: 600px) {
+	 .fakeimg{
+		width:600px;
+	}
+	
+	.text{	
+		width: 600px;
+	}
+	
+}
+
+/* For desktop: */
+@media only screen and (min-width: 768px){
+	 .fakeimg{
+		width:700px;
+		padding: 5px;
+	}
+	
+	.text{	
+		width: 700px;
+	}
+}
+	

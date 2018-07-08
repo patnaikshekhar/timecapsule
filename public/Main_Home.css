@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.row2 {
+   		display: block;
+    	margin-left: auto;
+   		margin-right: auto;
+		text-align: center
+}
+	
+
+
+button{
+		margin-top:70px;
+		margin-bottom:60px;
+}
+
+.text{
+     	padding-left: 25px;
+		padding-right: 25px;
+		padding-top: 5px;
+    	margin-left: 30px;
+	    margin-right: 30px;
+		text-align: left;
+	    margin-top:5px; 
+		margin-bottom: 60px;
+	
+	
+	}
+	
+.footer{
+	height: 30px;
+	max-width: 100%;
+	background-color: #041226;
+	margin-top: 25%;
+	clear: left;
+	color: #BCB7B7;
+	text-align: center;
+	
+}
+	
+	.container{
+		max-width: 100%
+	}
+	
+	.icon{
+		font-size: 130px; 		
+	}
+
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+	.Image {
+   	  height: 600px;
+  }
+	
+	.centered{
+		
+		font-size: 10px;
+	}
+	
+		.centered h1{
+		
+		font-size: 50px;
+	}
+	
+	.centered h2{
+		
+		font-size: 30px;
+	}
+}
+
+
+/* For tablets: */
+@media only screen and (min-width: 576px) {
+	.Image {
+   	 height: 450px;
+	
+  }
+	
+	.centered h1{
+		
+		font-size: 50px;
+	}
+	
+	.centered h2{
+		
+		font-size: 20px;
+	}
+	
+}
+
+
+
+/* For desktop: */
+@media only screen and (min-width: 768px){
+	.Image {
+    flex: 50%;
+   	 max-width: 100%;
+  }
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	margin-top: 60px;
+}
+
+
+
+/*.header{
+	
+	background-image: url(Images/IMG1.jpg);
+	padding:70px;
+}*/

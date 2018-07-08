@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1{
+		font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 70px;
+		text-shadow: 20px, 20px;
+	
+	}
+	
+	h2{
+		font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-style: italic;
+		font-size: 35px;
+		text-shadow: 20px, 20px;
+	
+	}
+	
+	h3{
+		font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif", bold;
+		font-size: 30px;
+		text-shadow: 20px, 20px;
+	}
+	
+	h4{
+		margin-top: 30px;
+		font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif", bold;
+		font-size: 22px;
+	}
+	
+	h5{
+		margin-top: 15px;
+
+		font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif", bold;
+		font-size: 16px;
+	}

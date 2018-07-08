@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	
+<style>
+  
+	.container{
+		max-width: 100%;
+	}
+	
+	h1{
+		font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 70px;
+		text-shadow: 20px, 20px;
+	
+	}
+	
+	h2{
+		font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 35px;
+		text-shadow: 20px, 20px;
+	
+	}
+	
+	h3{
+		font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif", bold;
+		font-size: 20px;
+		text-shadow: 20px, 20px;
+	}
+	
+	h4{
+		margin-top: 30px;
+		font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif", bold;
+		font-size: 22px;
+	}
+	
+	h5{
+		margin-top: 15px;
+
+		font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif", bold;
+		font-size: 16px;
+	}
+</style>
+	
+</head>
+
+<body>
+	
+	
+<div class="Homebar">
+
+	<nav class="navbar navbar-default">
+  		<div class="container-fluid">
+  			  <div class="navbar-header">
+				  
+			   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+       			 	<span class="icon-bar"></span>
+        		 	<span class="icon-bar"></span>
+        			<span class="icon-bar"></span> 
+      			</button>
+				  
+  			    <a class="navbar-brand" href="#"><img  style="height: 20px; width: 60px;"src="Images/Logo.jpg"></img></a>
+				<a class="navbar-brand" href="#">Time Capsule</a>
+
+  			  </div>
+		
+			  <div class="collapse navbar-collapse" id="myNavbar">
+  			  		<ul class="nav navbar-nav navbar-right"> 	    
+				   		<li  ><a href="Main_Home.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+
+   				    	 <li ><a href="Sign_Up.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+  			   	    	 <li ><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				    	<!--  <li><a href="#"><span class="glyphicon glyphicon-earphone"></span> contact</a></li>-->
+				  		<li class="active"><a href="Questionnaire.html"><span class="glyphicon glyphicon-file"></span> Survey</a></li>
+						<li ><a href="Covering_Letter.html"><span class="glyphicon glyphicon-list"></span> Coverletter</a></li>
+  			  		</ul>
+		      </div>
+       </div>
+	</nav>
+</div>
+	
+<div class="center-block" style="text-align: center">
+	<h2>Questionaire</h2>
+	<h3>Please fill this form to enable us to improve this website helping you give the best experience</h3>
+</div>
+
+<div style="margin-left:50px; margin-top: 30px;">	
+	<form  name="input" action="receiving_form.php" method="get"  >
+	
+		<h3>1. How easy is it to use the website: </h3>
+			<select name="ease of use">
+				<option value="Easy">Very easy</option>
+				<option value="Okay">Alright</option>
+				<option value="Difficult">Difficult</option>
+				<option value="Very difficult">Very difficult </option>
+			</select>
+
+
+		<h3>2. How did you find out about this website: </h3>
+		<textarea  name="find" rows="2" cols="50"  placeholder="Please enter text here"></textarea>
+
+
+		<h3>3. How often do you use the website: </h3>
+		    <select name="frequency">
+				<option value="while">once in a while</option>
+				<option value="often">frequently</option>
+				<option value="regularly">quite frequently </option>
+			</select>
+
+		<h3>4. Gender </h3>
+			<input type="radio" name="gender" value="Male" />Male
+			<input type="radio" name="gender" value="Female" />Female
+			<input type="radio" name="gender" value="Unspecified" />Unspecified
+
+
+		<h3>5. What age group are you in: </h3>
+			<select name="age group">
+				<option value=""></option>
+				<option value="18">Under 18</option>
+				<option value="18-30">18-30</option>
+				<option value="30-50">30-50</option>
+				<option value="over 50">Over 50 </option>
+			</select>
+		
+		
+		<h3>6. Are there any features you would like to see added </h3>
+		<textarea name="new features" rows="10" cols="50" placeholder="Please enter text here"></textarea>
+
+		<h3>7. Any additional feedback </h3>
+
+		<textarea name="new features" rows="5" cols="50" placeholder="Please enter text here"></textarea><br><br>
+
+		<input type="submit" class="btn btn-info" name="Submit" value="Submit" style="float: left; margin-bottom: 70px;"/>
+		<br><br>
+		<h3></h3>
+
+	</form>
+</div>
+
+</body>
+
+</html>
+
