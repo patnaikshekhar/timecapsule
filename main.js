@@ -26,7 +26,11 @@ app.get('/signup', (req, res) => {
 })
 
 app.get('/home', hasLoggedIn(), (req, res) => {
-  res.sendFile(`${__dirname}/public/Create_1.html`)
+  res.render('HomeLogin')
+})
+
+app.get('/create', hasLoggedIn(), (req, res) => {
+  res.render('Create')
 })
 
 app.get('/logout', hasLoggedIn(), (req, res) => {
